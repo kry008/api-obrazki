@@ -25,7 +25,7 @@ const app = express();
 //pliki statyczne
 app.use(express.static('public'));
 //logi
-app.use(morgan('dev'));
+app.use(morgan('short')); //dev - z kolorami, short - bez kolorów
 
 
 //strona główna
